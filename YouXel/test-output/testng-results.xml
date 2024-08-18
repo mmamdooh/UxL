@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-18T08:36:38 EEST" name="uxlAssignment" finished-at="2024-08-18T08:37:15 EEST" duration-ms="36537">
+    <groups>
+    </groups>
+    <test started-at="2024-08-18T08:36:38 EEST" name="Amazon Test" finished-at="2024-08-18T08:37:15 EEST" duration-ms="36537">
+      <class name="uxlTests.testCases">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:uxlTests.testCases@6253c26]" started-at="2024-08-18T08:36:38 EEST" name="setUp" finished-at="2024-08-18T08:36:42 EEST" duration-ms="4407" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.amazon.eg/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC_001(java.lang.String)[pri:1, instance:uxlTests.testCases@6253c26]" started-at="2024-08-18T08:36:43 EEST" name="TC_001" description="Verify Amazon home page" finished-at="2024-08-18T08:36:44 EEST" duration-ms="1859" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.eg/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_001 -->
+        <test-method signature="TC_002(java.lang.String)[pri:2, instance:uxlTests.testCases@6253c26]" started-at="2024-08-18T08:36:44 EEST" name="TC_002" description="Verify search functionality by Category" finished-at="2024-08-18T08:36:49 EEST" depends-on-methods="uxlTests.testCases.TC_001" duration-ms="4711" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[الإلكترونيات]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_002 -->
+        <test-method signature="TC_003(java.lang.String)[pri:3, instance:uxlTests.testCases@6253c26]" started-at="2024-08-18T08:36:49 EEST" name="TC_003" description="Verify search functionality by Category" finished-at="2024-08-18T08:36:56 EEST" depends-on-methods="uxlTests.testCases.TC_001" duration-ms="6409" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[electronic gadgets]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_003 -->
+        <test-method signature="TC_004()[pri:4, instance:uxlTests.testCases@6253c26]" started-at="2024-08-18T08:36:56 EEST" name="TC_004" description="Verify the sorting" finished-at="2024-08-18T08:37:01 EEST" depends-on-methods="uxlTests.testCases.TC_001" duration-ms="5958" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_004 -->
+        <test-method signature="TC_005()[pri:5, instance:uxlTests.testCases@6253c26]" started-at="2024-08-18T08:37:01 EEST" name="TC_005" description="Verify selling an item from e-commerce portal" finished-at="2024-08-18T08:37:06 EEST" depends-on-methods="uxlTests.testCases.TC_003" duration-ms="4497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_005 -->
+        <test-method signature="TC_006()[pri:6, instance:uxlTests.testCases@6253c26]" started-at="2024-08-18T08:37:06 EEST" name="TC_006" description="Verify selling an item from e-commerce portal" finished-at="2024-08-18T08:37:11 EEST" depends-on-methods="uxlTests.testCases.TC_003" duration-ms="4769" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_006 -->
+        <test-method signature="TC_007()[pri:7, instance:uxlTests.testCases@6253c26]" started-at="2024-08-18T08:37:11 EEST" name="TC_007" finished-at="2024-08-18T08:37:11 EEST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_007 -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:uxlTests.testCases@6253c26]" started-at="2024-08-18T08:37:11 EEST" name="afterTest" finished-at="2024-08-18T08:37:15 EEST" duration-ms="3811" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- uxlTests.testCases -->
+    </test> <!-- Amazon Test -->
+  </suite> <!-- uxlAssignment -->
+</testng-results>
