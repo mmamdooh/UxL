@@ -14,7 +14,7 @@ Tools & Framework
 - TestNG execution framework
 - Maven as project dependencies and structure
 - Java language
-- =============================================
+=============================================
 In order to execute,
 1- Download the project (from run the command git clone https://github.com/mmamdooh/UxL.git )
 2- Open the project in Eclipse
