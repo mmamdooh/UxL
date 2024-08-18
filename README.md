@@ -1,4 +1,6 @@
-This is the Automation assignment of YouXel. the purpose is to automate Amzaone test cases.
+This is the Automation assignment of YouXel.
+=============================================
+The purpose is to automate Amzaone test cases.
 in this repo you will find below
 1- Automation project
 2- Execution TestReport snapshot
