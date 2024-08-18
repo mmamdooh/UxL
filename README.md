@@ -16,6 +16,6 @@ Tools & Framework
 - Java language
 - =============================================
 In order to execute,
-1- Download the project (from run the command git clone )
+1- Download the project (from run the command git clone https://github.com/mmamdooh/UxL.git )
 2- Open the project in Eclipse
 3- Right click "TestNG.xml" file and select "ran as testng"
